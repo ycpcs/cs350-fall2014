@@ -1,9 +1,10 @@
 ---
 layout: default
+course_number: CS350
 title: README
 ---
 
-This is the website for CS 350, Fall 2014 at York College of
+This is the website for CS350, Fall 2014 at York College of
 Pennsylvania.
 
 Unless indicated otherwise, all materials are
