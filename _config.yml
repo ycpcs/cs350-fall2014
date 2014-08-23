@@ -3,7 +3,5 @@ description: ""
 
 url: "http://ycpcs.github.io/cs350-fall2014"
 
-paginate: 10
-
 markdown: rdiscount
-pygments: true
+highlighter: pygments
