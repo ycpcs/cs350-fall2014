@@ -11,7 +11,7 @@ Additional content will be added as it becomes available throughout the semester
 >| **Date**       | **Topic**                                      |  **Lab**                                 |  **Assignments**                  |
 >| ---------------|:-----------------------------------------------|------------------------------------------|-----------------------------------|
 >||||
->| Tue, Aug 26    |  [Intro to C++](lectures/intro_to_C++.html)    |  [comment]: # "Histogram in C++"                        |                                   |
+>| Tue, Aug 26    |  [Intro to C++](lectures/intro_to_C++.html)    |  <!-- Histogram in C++ -->                       |                                   |
 >| Thur, Aug 28   |  Stacks & Queues                               |  <!--Postfix expression evaluator-->     |  <!--Integer Array Stack (Due Sep 3)-->  |
 >||||
 >| Tue, Sep 2     |  [C++ Templates](lectures/C++_templates.html)  |  <!--Value semantics in C++-->           |                                   |
