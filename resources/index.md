@@ -6,9 +6,10 @@ title: Resources
 
 This page contains links to useful resources.
 
+ - Online Course Textbook: [Open Data Structures](http://opendatastructures.org)
  
- 
- - [Marmoset Submission Server](https://cs.ycp.edu/marmoset/)
+ - C++ Reference: [Thinking in C++, 2nd Edition](http://www.mindview.net/Books/TICPP/ThinkingInCPP2e.html)
  
  - [Online data structure visualization](http://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
    
+ - [Marmoset Submission Server](https://cs.ycp.edu/marmoset/)
