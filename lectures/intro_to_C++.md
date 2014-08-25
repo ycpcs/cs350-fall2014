@@ -22,71 +22,74 @@ For this course we will be implementing a variety of data structures using C++. 
 Below is an example Java implementation of a simple class that contains the various coin denominations with a few simple interface methods
 
 
-    public class Coins {
-        private int pennies;
-        private int nickels;
-        private int dimes;
-        private int quarters;
+```c++
+public class Coins {
+    private int pennies;
+    private int nickels;
+    private int dimes;
+    private int quarters;
     
-        // Constructors
-        public Coins() {
-            pennies = 0;
-            nickels = 0;
-            dimes = 0;
-            quarters = 0;
-        }
-    
-        public Coins(int p, int n, int d, int q) {
-            pennies = p;
-            nickels = n;
-            dimes = d;
-            quarters = q;
-        }
-    
-        // Interface methods
-        public int findCentsValue() {
-            int cents;    
-            cents = 25*quarters + 10*dimes + 5*nickels + pennies;    
-            return cents;
-        }
-        
-        public int findDollars() {
-            int cents = findCentsValue();
-            return cents/100;
-        }
-        
-        public int findChange() {
-            int cents = findCentsValue();
-            return cents%100;
-        }
+    // Constructors
+    public Coins() {
+        pennies = 0;
+        nickels = 0;
+        dimes = 0;
+        quarters = 0;
     }
+    
+    public Coins(int p, int n, int d, int q) {
+        pennies = p;
+        nickels = n;
+        dimes = d;
+        quarters = q;
+    }
+    
+    // Interface methods
+    public int findCentsValue() {
+        int cents;    
+        cents = 25*quarters + 10*dimes + 5*nickels + pennies;    
+        return cents;
+    }
+        
+    public int findDollars() {
+        int cents = findCentsValue();
+        return cents/100;
+    }
+        
+    public int findChange() {
+        int cents = findCentsValue();
+        return cents%100;
+    }
+}
+```
 
 
 
 <br>    
 The equivalent C++ class declaration (in **Coins.h**) would be
 
-
-    class Coins {
-    private:
-        int pennies;
-        int nickels;
-        int dimes;
-        int quarters;
+```c++
+class Coins {
+private:
+    int pennies;
+    int nickels;
+    int dimes;
+    int quarters;
         
-    public:
-        // Constructor
-        Coins(int p=0, int n=0, int d=0, int q=0):
-            pennies(p),nickels(n),dimes(d),quarters(q){};
+public:
+    // Constructor
+    Coins(int p=0, int n=0, int d=0, int q=0):
+        pennies(p),nickels(n),dimes(d),quarters(q){};
         
-        // Destructor
-        ~Coins(){};
+    // Destructor
+    ~Coins(){};
         
-        // Interface methods
-        int findCentsValue();
-        int findDollars();
-        int findChange();
-    };
+    // Interface methods
+    int findCentsValue();
+    int findDollars();
+    int findChange();
+};
+````
 
     
 <br>
