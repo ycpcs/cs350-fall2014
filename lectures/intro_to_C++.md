@@ -120,12 +120,12 @@ Note that each method name is qualified with the name of the class (and no visib
 
 Instantiation an object of type ```Coins``` can be done in several ways:
 
-    ```c++
-    Coins c1;                       // Static allocation using all default constructor values
-    Coins c2(1,1,1,1);              // Static allocation using specified constructor values
-    Coins *c3 = new Coins();        // Dynamic allocation using all default constructor values
-    Coins *c4 = new Coins(1,1,1,1); // Dynamic allocation using specified constructor values
-    ```
+```c++
+Coins c1;                       // Static allocation using all default constructor values
+Coins c2(1,1,1,1);              // Static allocation using specified constructor values
+Coins *c3 = new Coins();        // Dynamic allocation using all default constructor values
+Coins *c4 = new Coins(1,1,1,1); // Dynamic allocation using specified constructor values
+```
 
 <br>
 Note that ```c3``` and ```c4``` are *pointers* to ```Coins``` objects. To call the methods for the statically allocated objects, the *dot operator* is used. For calls to the methods in the dynamically allocated objects (since it is done *indirectly* through the pointer), the *arrow operator* is used. For example,
@@ -140,10 +140,10 @@ Note that ```c3``` and ```c4``` are *pointers* to ```Coins``` objects. To call t
 <br>
 For the dynamically allocated objects, to prevent memory leaks there would need to be corresponding calls
 
-    ```c++
-    delete c3;
-    delete c4;
-    ```
+```c++
+delete c3;
+delete c4;
+```
     
 <br>
 To dynamically allocate an array, the ```new``` operator is used with the desired array size as
@@ -159,30 +159,4 @@ To free a dynamically allocated array, simply specify that the ```delete``` oper
 ```c++
 delete[] a;
 ```
-
-```cpp
-delete[] a;
-```
-
-```ruby
-delete[] a;
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
