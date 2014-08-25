@@ -156,9 +156,17 @@ where the integer array ```a``` is dynamically allocated with ```size``` element
 
 To free a dynamically allocated array, simply specify that the ```delete``` operator is freeing an array as
 
-    ```c++
-    delete[] a;
-    ```
+```c++
+delete[] a;
+```
+
+```cpp
+delete[] a;
+```
+
+```ruby
+delete[] a;
+```
 
 
 
