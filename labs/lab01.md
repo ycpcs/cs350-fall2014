@@ -8,7 +8,7 @@ title: "Lab 1: Histogram in C++"
 ###Getting Started
 ------------------
 
-Download [CS350_Lab01.zip](labs/CS350_Lab01.zip).  Unzip it.  In a terminal window, change directory to the **```CS350_Lab01```** directory.
+Download [CS350_Lab01.zip](CS350_Lab01.zip).  Unzip it.  In a terminal window, change directory to the **```CS350_Lab01```** directory.
 
 
 Using a text editor, open the files **```Histogram.h```**, **```Histogram.cpp```**, and **```main.cpp```**.
@@ -17,6 +17,7 @@ To compile the test program, run the command **```make```**.
 
 To run the test program run the command **```./lab01.exe```**.
 
+<br>
 ###Your Task
 ------------
 
@@ -41,6 +42,7 @@ The idea is that a **```Histogram```** object counts the number of occurrences o
 
 You will need to add implementations for the constructor, destructor, **```increaseCount```**, and **```getCount```** methods in **```Histogram.cpp```**.
 
+<br>
 ###Testing
 -----------
 
@@ -88,7 +90,7 @@ Z:
 </pre>
 
 
-
+<br>
 ###Hints and approach
 ----------------------
 

@@ -40,14 +40,14 @@ public class ArrayList<E> {
 ```
 
 <br>
-Here ```E``` is used as a generic object that can be used as both a parameter and return value datatype. Thus to instantiate an ```ArrayList``` that stores ```int```'s we would use
+Here **```E```** is used as a generic object that can be used as both a parameter and return value datatype. Thus to instantiate an **```ArrayList```** that stores **```int```**'s we would use
 
 ```cpp
 ArrayList<int> list = new ArrayList<int>();
 ```
 
 <br>
-The equivalent C++ class declaration (in **ArrayList.h**) would be
+The equivalent C++ class declaration (in **```ArrayList.h```**) would be
 
 
 ```cpp
@@ -72,9 +72,9 @@ public:
 ```
 
 <br>
-Here the generic type is specified as a template at which point ```T``` can be used within the class as a generic datatype. Further note that unlike Java where all objects are treated as references, we need to explicitly specify reference parameters if we wish to pass objects of type ```T``` by reference (and additionally qualify them with ```const``` if we want to protect them from modification within the method). Furthermore, we can specify that a method itself is constant, i.e. cannot change any class fields, by adding ```const``` to the end of the method declaration, e.g. ```get()``` in the above class.
+Here the generic type is specified as a template at which point **```T```** can be used within the class as a generic datatype. Further note that unlike Java where all objects are treated as references, we need to explicitly specify reference parameters if we wish to pass objects of type **```T```** by reference (and additionally qualify them with **```const```** if we want to protect them from modification within the method). Furthermore, we can specify that a method itself is constant, i.e. cannot change any class fields, by adding **```const```** to the end of the method declaration, e.g. **```get()```** in the above class.
 
-The implementation for the methods (in **ArrayList.cpp**) would be
+The implementation for the methods (in **```ArrayList.cpp```**) would be
 
 ```cpp
 #include "ArrayList.h"
@@ -117,12 +117,12 @@ template class ArrayList<double>;
 ```
 
 <br>
-Note that each method name is qualified with the name of the class *and template definition* (and no visibility specifiers are present in the definitions). One other issue with C++ templates is that since *.cpp* files are compiled separately *before* they are linked with other source files, methods with templates would have no way of knowing which class ```T``` to be instantiated with. This issue can be resolved in one of two ways:
+Note that each method name is qualified with the name of the class *and template definition* (and no visibility specifiers are present in the definitions). One other issue with C++ templates is that since *.cpp* files are compiled separately *before* they are linked with other source files, methods with templates would have no way of knowing which class **```T```** to be instantiated with. This issue can be resolved in one of two ways:
 
   - The method definitions can be placed into the header file with the class declaration. That way the compiler will know which versions of the templated methods to instantiate based on the usage in the source file that includes the header (through the preprocessor stage of compilation).
-  - Specific implementations can be added to the end of the *.cpp* file which will create concrete implementations for all the methods using the specified types. Unfortunately, with this approach the class can only be instantiated for these types and thus is not truly generic. Thus in the example above, only ```ArrayList<int>``` or ```ArrayList<double>``` could be used. One advantage, though, is it does prevent the class from being instantiated for objects that may not be valid, e.g. if ```T``` would require certain interface methods.
+  - Specific implementations can be added to the end of the *.cpp* file which will create concrete implementations for all the methods using the specified types. Unfortunately, with this approach the class can only be instantiated for these types and thus is not truly generic. Thus in the example above, only **```ArrayList<int>```** or **```ArrayList<double>```** could be used. One advantage, though, is it does prevent the class from being instantiated for objects that may not be valid, e.g. if **```T```** would require certain interface methods.
 
-Instantiation an object of type ```ArrayList``` is then done by specifying the datatype to be used for the template:
+Instantiation an object of type **```ArrayList```** is then done by specifying the datatype to be used for the template:
 
 ```cpp
 ArrayList<int> theList;           // ArrayList containing ints
@@ -131,7 +131,7 @@ ArrayList<int> *pList;            // Pointer to ArrayList containing ints
 ```
 
 <br>
-Note that pList is a *pointer* to an ```ArrayList``` object. At this point, using the objects is similar to any other objects
+Note that pList is a *pointer* to an **```ArrayList```** object. At this point, using the objects is similar to any other objects
 
 ```cpp
 theList.add(1);

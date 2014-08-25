@@ -9,9 +9,9 @@ For this course we will be implementing a variety of data structures using C++. 
   - Rather than requiring separate overloaded constructors, often a single constructor with *default* parameters can be used.
   - Constructors typically use *initialization lists* (utilizing the parameters) for many of the class fields.
   - Classes have a *destructor* that is called when an object is destroyed, i.e. by going out of scope, and is responsible for any necessary cleanup particularly of any dynamically allocated memory.
-  - Often the class declaration (i.e. interface) will be placed in a *header* file (usually with extension **.h**) with the method definitions being placed in an *implementation* file (usually with extension **.cpp**). The method definitions must be qualified with the class name in the implementation file.
-  - The **new** operator is used for dynamic memory allocation, but returns an *address* which must be assigned to a *pointer* of appropriate type.
-  - Any dynamically allocated memory must be freed using the **delete** operator to avoid memory leaks.
+  - Often the class declaration (i.e. interface) will be placed in a *header* file (usually with extension **```.h```**) with the method definitions being placed in an *implementation* file (usually with extension **```.cpp```**). The method definitions must be qualified with the class name in the implementation file.
+  - The **```new```** operator is used for dynamic memory allocation, but returns an *address* which must be assigned to a *pointer* of appropriate type.
+  - Any dynamically allocated memory must be freed using the **```delete```** operator to avoid memory leaks.
 
 
 
@@ -66,7 +66,7 @@ public class Coins {
 
 
 <br>    
-The equivalent C++ class declaration (in **Coins.h**) would be
+The equivalent C++ class declaration (in **```Coins.h```**) would be
 
 ```cpp
 class Coins {
@@ -95,7 +95,7 @@ public:
 <br>
 Note that only a single constructor is necessary as the equivalent Java no parameter constructor simply uses all the default parameter values. Also rather than each member variable and method's visibility needing to be individually specified, C++ visibility can be specified in blocks.
 
-The implementation for the methods (in **Coins.cpp**) would be
+The implementation for the methods (in **```Coins.cpp```**) would be
 
 
 ```cpp
@@ -133,7 +133,7 @@ Coins *c4 = new Coins(1,1,1,1); // Dynamic allocation using specified constructo
 
 
 <br>
-Note that ```c3``` and ```c4``` are *pointers* to ```Coins``` objects. To call the methods for the statically allocated objects, the *dot operator* is used. For calls to the methods in the dynamically allocated objects (since it is done *indirectly* through the pointer), the *arrow operator* is used. For example,
+Note that **```c3```** and **```c4```** are *pointers* to **```Coins```** objects. To call the methods for the statically allocated objects, the *dot operator* is used. For calls to the methods in the dynamically allocated objects (since it is done *indirectly* through the pointer), the *arrow operator* is used. For example,
 
 
 ```cpp
@@ -154,16 +154,16 @@ delete c4;
 
     
 <br>
-To dynamically allocate an array, the ```new``` operator is used with the desired array size as
+To dynamically allocate an array, the **```new```** operator is used with the desired array size as
 
 ```cpp
 int *a = new int[size];
 ```
 
     
-where the integer array ```a``` is dynamically allocated with ```size``` elements.
+where the integer array **```a```** is dynamically allocated with **```size```** elements.
 
-To free a dynamically allocated array, simply specify that the ```delete``` operator is freeing an array as
+To free a dynamically allocated array, simply specify that the **```delete```** operator is freeing an array as
 
 ```cpp
 delete[] a;
