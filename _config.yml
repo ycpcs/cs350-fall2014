@@ -4,4 +4,6 @@ description: ""
 url: "http://ycpcs.github.io/cs350-fall2014"
 
 markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 highlighter: pygments
