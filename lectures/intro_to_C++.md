@@ -89,7 +89,7 @@ public:
     int findDollars();
     int findChange();
 };
-````
+```
 
     
 <br>
@@ -98,23 +98,25 @@ Note that only a single constructor is necessary as the equivalent Java no param
 The implementation for the methods (in **Coins.cpp**) would be
 
 
-    #include "Coins.h"
+```c++
+#include "Coins.h"
     
-    int Coins::findCentsValue() {
-        int cents;
-        cents = 25*quarters + 10*dimes + 5*nickels + pennies;
-        return cents;
-    }
+int Coins::findCentsValue() {
+    int cents;
+    cents = 25*quarters + 10*dimes + 5*nickels + pennies;
+    return cents;
+}
     
-    int Coins::findDollars() {
-        int cents = findCentsValue();
-        return cents/100;
-    }
+int Coins::findDollars() {
+    int cents = findCentsValue();
+    return cents/100;
+}
     
-    int Coins::findChange() {
-        int cents = findCentsValue();
-        return cents%100;
-    }
+int Coins::findChange() {
+    int cents = findCentsValue();
+    return cents%100;
+}
+```
 
     
 <br>    
@@ -122,42 +124,48 @@ Note that each method name is qualified with the name of the class (and no visib
 
 Instantiation an object of type ```Coins``` can be done in several ways:
 
-
-    Coins c1;                       // Static allocation using all default constructor values
-    Coins c2(1,1,1,1);              // Static allocation using specified constructor values
-    Coins *c3 = new Coins();        // Dynamic allocation using all default constructor values
-    Coins *c4 = new Coins(1,1,1,1); // Dynamic allocation using specified constructor values
+```c++
+Coins c1;                       // Static allocation using all default constructor values
+Coins c2(1,1,1,1);              // Static allocation using specified constructor values
+Coins *c3 = new Coins();        // Dynamic allocation using all default constructor values
+Coins *c4 = new Coins(1,1,1,1); // Dynamic allocation using specified constructor values
+```
 
 
 <br>
 Note that ```c3``` and ```c4``` are *pointers* to ```Coins``` objects. To call the methods for the statically allocated objects, the *dot operator* is used. For calls to the methods in the dynamically allocated objects (since it is done *indirectly* through the pointer), the *arrow operator* is used. For example,
 
 
-    int c1Cents = c1.findCentsValue();
-    int c2Dollars = c2.findDollars();
-    int c3Cents = c3->findCentsValue();
-    int c4Change = c4->findChange();
+```c++
+int c1Cents = c1.findCentsValue();
+int c2Dollars = c2.findDollars();
+int c3Cents = c3->findCentsValue();
+int c4Change = c4->findChange();
+```
 
 
 <br>
 For the dynamically allocated objects, to prevent memory leaks there would need to be corresponding calls
 
-
-    delete c3;
-    delete c4;
+```c++
+delete c3;
+delete c4;
+```
 
     
 <br>
 To dynamically allocate an array, the ```new``` operator is used with the desired array size as
 
-
-    int *a = new int[size];
+```c++
+int *a = new int[size];
+```
 
     
 where the integer array ```a``` is dynamically allocated with ```size``` elements.
 
 To free a dynamically allocated array, simply specify that the ```delete``` operator is freeing an array as
 
-
-    delete[] a;
+```c++
+delete[] a;
+```
 
