@@ -14,7 +14,7 @@ Additional content will be added as it becomes available throughout the semester
 >| Tue, Aug 26    |  [Intro to C++](lectures/intro_to_C++.html)    |  [Lab 1: Histogram in C++](labs/lab01.html)   |                                   |
 >| Thur, Aug 28   |  [Stacks](lectures/Stacks_lecture.pdf) & [Queues](lectures/Queues_lecture.pdf)  |  [Lab 2: Postfix expression evaluator](labs/lab02.html)  |                                   |
 >||||
->| Tue, Sep 2     |  [C++ Templates](lectures/C++_templates.html)  |  [Lab 2: Postfix expression evaluator](labs/lab02.html)   |                                   |
+>| Tue, Sep 2     |  [C++ Templates](lectures/C++_templates.html)  |                                               |                                   |
 >| Thur, Sep 4    |  Linked Lists                                  |                                               |                                   |
 >||||
 >| Tue, Sep 9     |  Linked Lists (Cont.)                          |                                               |                                   |
