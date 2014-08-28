@@ -141,7 +141,7 @@ In order to dynamically adjust the size of the backing array, we first note that
   - Add a **```void```** method named **```resize()```** (don't forget to qualify it with the class name) that takes one parameter for the new backing array size that changes the size of **```stack```** to the new size with the same values as the original version.
 
   
-
+<br>
 ### 8. Compiling and running the program
 -------------------------------------------
 
