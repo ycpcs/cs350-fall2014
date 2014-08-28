@@ -15,7 +15,7 @@ Using a text editor, open the file **```main.cpp```**.
 
 To compile the test program, run the command **```make```**.
 
-To run the program, run the command **```./lab02.exe```**.
+To run the program, run the command **```./lab02```**.
 
 
 
