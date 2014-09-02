@@ -72,7 +72,7 @@ public:
 ```
 
 <br>
-Here the generic type is specified as a template at which point **```T```** can be used within the class as a generic datatype. Further note that unlike Java where all objects are treated as references, we need to explicitly specify reference parameters if we wish to pass objects of type **```T```** by reference (and additionally qualify them with **```const```** if we want to protect them from modification within the method). Furthermore, we can specify that a method itself is constant, i.e. cannot change any class fields, by adding **```const```** to the end of the method declaration, e.g. **```get()```** in the above class.
+Here the generic type is specified as a template at which point **```T```** can be used within the class as a generic datatype. Further note that unlike Java where all objects are treated as references, we need to explicitly specify reference parameters if we wish to pass objects of type **```T```** by reference.  This is done by including an **```&```** between the parameter type and the parameter name, e.g. see the **```add()```** method in the above class.  Additionally, parameters can be qualified with **```const```** to protect them from modification within the method. Furthermore, we can specify that a method itself is constant, i.e. the method cannot change any class fields, by adding **```const```** to the end of the method declaration, e.g. **```get()```** in the above class.
 
 The implementation for the methods (in **```ArrayList.cpp```**) would be
 
