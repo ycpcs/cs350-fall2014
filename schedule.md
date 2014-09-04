@@ -15,7 +15,7 @@ Additional content will be added as it becomes available throughout the semester
 >| Thur, Aug 28   |  [Stacks](lectures/Stacks_lecture.pdf) & [Queues](lectures/Queues_lecture.pdf)  |  [Lab 2: Postfix expression evaluator](labs/lab02.html)  |  [Integer Array Stack (Due Sep 3)](assign/assign01.html)  |
 >||||
 >| Tue, Sep 2     |  [C++ Templates](lectures/C++_templates.html)     |  [Lab 3: Value semantics in C++](labs/lab03.html)  |                                   |
->| Thur, Sep 4    |  [Linked Lists](lectures/LinkedList_lecture.pdf)  |                                                    |                                   |
+>| Thur, Sep 4    |  [Linked Lists](lectures/LinkedList_lecture.pdf)  |  [Lab 4: Benchmarking vector and list](labs/lab04.html)  |                                   |
 >||||
 >| Tue, Sep 9     |  [Doubly Linked Lists](lectures/DoublyLinkedList_lecture.pdf)  |                                      |                                   |
 >| Thur, Sep 11   |  [Skip Lists](lectures/Skip_Lists.pdf)                         |                                      |                                   |
