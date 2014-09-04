@@ -67,12 +67,12 @@ Additional content will be added as it becomes available throughout the semester
 >| Thur, Aug 28   |  Stacks & Queues                               |  Postfix expression evaluator                 |  Integer Array Stack (Due Sep 3)  |
 >||||
 >| Tue, Sep 2     |  [C++ Templates](lectures/C++_templates.html)  |  Value semantics in C++                       |                                   |
->| Thur, Sep 4    |  Linked Lists                                  |  Benchmarking vector and list                 |  Doubly Linked List (Due Sep 15)  |
+>| Thur, Sep 4    |  Linked Lists                                  |  Benchmarking vector and list                 |                                   |
 >||||
->| Tue, Sep 9     |  Linked Lists (Cont.)                          |  Linked list implementation                   |                                   |
+>| Tue, Sep 9     |  Doubly-Linked Lists                           |  Linked list implementation                   |  Doubly Linked List (Due Sep 15)  |
 >| Thur, Sep 11   |  Skip Lists                                    |                                               |                                   |
 >||||
->| Tue, Sep 16    |  Skip Lists (Cont.)                            |                                               |  Skip List (Due Sep 24)           |
+>| Tue, Sep 16    |  Skip Lists (Cont.)                            |                                               |  Skip List (Due Sep 22)           |
 >| Thur, Sep 18   |  Review for Exam #1                            |                                               |                                   |
 >||||
 >| Tue, Sep 23    |  Exam #1                                       |                                               |                                   |
