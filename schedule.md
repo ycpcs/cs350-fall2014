@@ -17,7 +17,7 @@ Additional content will be added as it becomes available throughout the semester
 >| Tue, Sep 2     |  [C++ Templates](lectures/C++_templates.html)     |  [Lab 3: Value semantics in C++](labs/lab03.html)  |                                   |
 >| Thur, Sep 4    |  [Linked Lists](lectures/LinkedList_lecture.pdf)  |  [Lab 4: Benchmarking vector and list](labs/lab04.html)  |                                   |
 >||||
->| Tue, Sep 9     |  [Doubly Linked Lists](lectures/DoublyLinkedList_lecture.pdf)  |  [Lab 5: Linked list implementation](labs/lab05.html)  |                                   |
+>| Tue, Sep 9     |  [Doubly Linked Lists](lectures/DoublyLinkedList_lecture.pdf)  |  [Lab 5: Linked list implementation](labs/lab05.html)  |  [Doubly Linked List (Due Sep 15)](assign/assign02.html)  |
 >| Thur, Sep 11   |  [Skip Lists](lectures/Skip_Lists.pdf)                         |                                      |                                   |
 >||||
 >| Tue, Sep 16    |  Skip Lists (Cont.)                               |                                               |                                   |
