@@ -20,16 +20,16 @@ Additional content will be added as it becomes available throughout the semester
 >| Tue, Sep 9     |  [Doubly Linked Lists](lectures/DoublyLinkedList_lecture.pdf)  |  [Lab 5: Linked list implementation](labs/lab05.html)  |  [Doubly Linked List (Due Sep 15)](assign/assign02.html)  |
 >| Thur, Sep 11   |  [Skip Lists](lectures/Skip_Lists.pdf)                         |                                      |                                   |
 >||||
->| Tue, Sep 16    |  Skip Lists (Cont.)                               |                                               |                                   |
+>| Tue, Sep 16    |  Skip Lists (Cont.)                               |                                               |                                   |  <!--Skip List (Due Sep 22)-->
 >| Thur, Sep 18   |  Review for Exam #1                               |                                               |                                   |
 >||||
 >| Tue, Sep 23    |  **Exam #1**                                      |                                               |                                   |
 >| Thur, Sep 25   |  [Trees](lectures/Trees_lecture.pdf) & [Tree Traversal](lectures/Tree_Traversal_lecture.pdf)  |                                               |                                   |
 >||||
->| Tue, Sep 30    |  [Binary Search Trees](lectures/Binary_Search_Trees.pdf)  |                                               |                                   |
->| Thur, Oct 2    |  Binary Search Trees (Cont.)                      |                                               |                                   |
+>| Tue, Sep 30    |  [Binary Search Trees](lectures/Binary_Search_Trees.pdf)  |                                       |                                   |  <!--Binary tree traversal algorithms--> <!--Random Art (Due Oct 6)-->
+>| Thur, Oct 2    |  Binary Search Trees (Cont.)                      |                                               |                                   |  <!--Binary search trees-->
 >||||
->| Tue, Oct 7     |  [AVL Trees](lectures/AVL_Trees.pdf)              |                                               |                                   |
+>| Tue, Oct 7     |  [AVL Trees](lectures/AVL_Trees.pdf)              |                                               |                                   |  <!--Binary Search Tree (Due Oct 22)-->
 >| Thur, Oct 9    |  AVL Trees (Cont.)                                |                                               |                                   |
 >||||
 >| Tue, Oct 14    |  **NO CLASS - Fall Break**                        |                                               |                                   |
@@ -39,7 +39,7 @@ Additional content will be added as it becomes available throughout the semester
 >| Thur, Oct 23   |  Review for Exam #2                               |                                               |                                   |
 >||||
 >| Tue, Oct 28    |  **Exam #2**                                      |                                               |                                   |
->| Thur, Oct 30   |  [AA-Trees](lectures/AA-tree_lecture.pdf)         |                                               |                                   |
+>| Thur, Oct 30   |  [AA-Trees](lectures/AA-tree_lecture.pdf)         |                                               |                                   |  <!--AA Tree (Due Nov 10)-->
 >||||
 >| Tue, Nov 4     |  [B-Trees](lectures/B-Trees.pdf)                  |                                               |                                   |
 >| Thur, Nov 6    |  B-Trees (Cont.)                                  |                                               |                                   |
@@ -47,69 +47,16 @@ Additional content will be added as it becomes available throughout the semester
 >| Tue, Nov 11    |  Review for Exam #3                               |                                               |                                   |
 >| Thur, Nov 13   |  **Exam #3**                                      |                                               |                                   |
 >||||
->| Tue, Nov 18    |  [Binary Heaps](lectures/Heaps.pdf)               |                                               |                                   |
+>| Tue, Nov 18    |  [Binary Heaps](lectures/Heaps.pdf)               |                                               |                                   |  <!--Binary Heap (Due Nov 26)-->
 >| Thur, Nov 20   |  Binary Heaps (Cont.)                             |                                               |                                   |
 >||||
 >| Tue, Nov 25    |  [Graphs](lectures/Graphs.pdf) & [Dijkstra's Algorithm](lectures/Dijkstras_Algorithm.pdf)  |                                               |                                   |
 >| Thur, Nov 27   |  **NO CLASS - Thanksgiving Break**                |                                               |                                   |
 >||||
->| Tue, Dec 2     |  [Hash Tables](lectures/Hash_Tables.pdf)          |                                               |                                   |
+>| Tue, Dec 2     |  [Hash Tables](lectures/Hash_Tables.pdf)          |                                               |                                   |  <!--Hash Table (Due Dec 8)-->
 >| Thur, Dec 4    |  Hash Tables (Cont.)                              |                                               |                                   |
 >||||
 >| Tue, Dec 9     |  **Final Exam**                                   |                                               |                                   |
-
-
-<!--
->| **Date**       | **Topic**                                      |  **Lab**                                      |  **Assignments**                  |
->| ---------------|:-----------------------------------------------|-----------------------------------------------|-----------------------------------|
->||||
->| Tue, Aug 26    |  [Intro to C++](lectures/intro_to_C++.html)    |  [Lab 1: Histogram in C++](labs/lab01.html)   |                                   |
->| Thur, Aug 28   |  Stacks & Queues                               |  Postfix expression evaluator                 |  Integer Array Stack (Due Sep 3)  |
->||||
->| Tue, Sep 2     |  [C++ Templates](lectures/C++_templates.html)  |  Value semantics in C++                       |                                   |
->| Thur, Sep 4    |  Linked Lists                                  |  Benchmarking vector and list                 |                                   |
->||||
->| Tue, Sep 9     |  Doubly-Linked Lists                           |  Linked list implementation                   |  Doubly Linked List (Due Sep 15)  |
->| Thur, Sep 11   |  Skip Lists                                    |                                               |                                   |
->||||
->| Tue, Sep 16    |  Skip Lists (Cont.)                            |                                               |  Skip List (Due Sep 22)           |
->| Thur, Sep 18   |  Review for Exam #1                            |                                               |                                   |
->||||
->| Tue, Sep 23    |  Exam #1                                       |                                               |                                   |
->| Thur, Sep 25   |  Trees/Tree Traversal                          |                                               |                                   |
->||||
->| Tue, Sep 30    |  Binary Search Trees                           |  Binary tree traversal algorithms             |  Random Art (Due Oct 6)           |
->| Thur, Oct 2    |  Binary Search Trees (Cont.)                   |  Binary search trees                          |                                   |
->||||
->| Tue, Oct 7     |  AVL Trees                                     |                                               |  Binary Search Tree (Due Oct 22)  |
->| Thur, Oct 9    |  AVL Trees (Cont.)                             |                                               |                                   |
->||||
->| Tue, Oct 14    |  **NO CLASS - Fall Break**                     |                                               |                                   |
->| Thur, Oct 16   |  Red-Black Trees                               |                                               |                                   |
->||||
->| Tue, Oct 21    |  Red-Black Trees (Cont.)                       |                                               |                                   |
->| Thur, Oct 23   |  Review for Exam #2                            |                                               |                                   |
->||||
->| Tue, Oct 28    |  Exam #2                                       |                                               |                                   |
->| Thur, Oct 30   |  AA-Trees                                      |                                               |  AA Tree (Due Nov 10)             |
->||||
->| Tue, Nov 4     |  B-Trees                                       |                                               |                                   |
->| Thur, Nov 6    |  B-Trees (Cont.)                               |                                               |                                   |
->||||
->| Tue, Nov 11    |  Review for Exam #3                            |                                               |                                   |
->| Thur, Nov 13   |  Exam #3                                       |                                               |                                   |
->||||
->| Tue, Nov 18    |  Binary Heaps                                  |                                               |  Binary Heap (Due Nov 26)         |
->| Thur, Nov 20   |  Binary Heaps (Cont.)                          |                                               |                                   |
->||||
->| Tue, Nov 25    |  Graphs                                        |                                               |                                   |
->| Thur, Nov 27   |  **NO CLASS - Thanksgiving Break**             |                                               |                                   |
->||||
->| Tue, Dec 2     |  Hash Tables                                   |                                               |  Hash Table (Due Dec 8)           |
->| Thur, Dec 4    |  Hash Tables (Cont.)                           |                                               |                                   |
->||||
->| Tue, Dec 9     |  **Final Exam**                                |                                               |                                   |
--->
 
 
 
