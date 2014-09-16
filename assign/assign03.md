@@ -6,7 +6,7 @@ title: "Assignment 3: Skip List"
 
 **Due Monday, Sept 22nd by 11:59pm**
 
-This lab will implement a doubly linked list that stores arbitrary objects via class templates. The list will dynamically allocate nodes as necessary for space efficiency.
+This lab will implement a skip list that stores arbitrary objects via class templates. The list will dynamically allocate nodes as necessary for space efficiency.
 
 This lab will implement a skip list that stores arbitrary objects via class templates. The list will dynamically allocate nodes as necessary for space efficiency. Pseudocode for the skip list operations can be found in the original paper [Skip Lists: A Probabilistic Alternative to Balanced Trees](ftp://ftp.cs.umd.edu/pub/skipLists/skiplists.pdf) in the June 1990 issue of *Communications of the ACM*.
 
