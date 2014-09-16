@@ -105,10 +105,10 @@ Finding arbitrary elements in a linked list typically requires a linear search o
 
 ```
 LIST-SEARCH(L, k)
-1   x = L.nil.next
-2   while x != L.nil and x.key != k
-3      x = x.next
-4   return x
+1   node = L.nil.next
+2   while node != L.nil and node.key != k
+3      node = node.next
+4   return node
 ```
 
 
@@ -123,11 +123,11 @@ This operation should add elements at the **head** of the list.
 * Add a **```void```** method named **```insert()```** (do not forget to qualify it with the class name) that takes a parameter of type **```T```** and inserts a **```Node```** containing the data at the head of the list. **Hint:** Be sure to adjust the pointers for **```dummy```** as well as those of the new *dynamically allocated* node. The following is pseudocode for the insert procedure (from CLRS *Introduction to Algorithms* where **```nil```** is the sentinel node)
 
 ```
-LIST-INSERT(L, x)
-1   x.next = L.nil.next
-2   L.nil.next.prev = x
-3   L.nil.next = x
-4   x.prev = L.nil
+LIST-INSERT(L, node)
+1   node.next = L.nil.next
+2   L.nil.next.prev = node
+3   L.nil.next = node
+4   node.prev = L.nil
 ```
 
 
@@ -144,9 +144,9 @@ This operation should remove an existing node containing a given value from the 
 * **DO NOT FORGET TO FREE THE MEMORY THAT WAS USED BY THE DELETED NODE**
 
 ```
-LIST-DELETE(L, x)
-1   x.prev.next = x.next
-2   x.next.prev = x.prev
+LIST-DELETE(L, node)
+1   node.prev.next = node.next
+2   node.next.prev = node.prev
 ```
 
 
