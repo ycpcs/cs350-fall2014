@@ -63,7 +63,7 @@ Since the list will grow dynamically as needed, the only purpose of the construc
 
 **Tasks**
 
-  * Add code to **```SkipList()```** (in **```SkipList.cpp```**) to *dynamically* allocate **```head```** as a  **```Node```**. The data field for the **```head```** node can be initialized with a value of 0.  The **```next```** array in a **```Node```** should be made **```maxHeight```** size (which can be done via the **```Node```** constructor). Do not forget to set the **```height```** field appropriately. For the **```head```** node, the **```height```** will represent the current highest level in the skiplist and **NOT** the maximum height of the skiplist (which is stored in the static member variable **```maxHeight```**).  When a  **```SkipList```** is first created, the highest level is 1.
+  * Add code to **```SkipList()```** (in **```SkipList.cpp```**) to *dynamically* allocate **```head```** as a  **```Node```**. The data field for the **```head```** node can be initialized with a value of **```T()```**.  The **```next```** array in a **```Node```** should be made **```maxHeight```** size (which can be done via the **```Node```** constructor). Do not forget to set the **```height```** field appropriately. For the **```head```** node, the **```height```** will represent the current highest level in the skiplist and **NOT** the maximum height of the skiplist (which is stored in the static member variable **```maxHeight```**).  When a  **```SkipList```** is first created, the highest level is 1.
   * Add code to **```~SkipList()```** (in **```SkipList.cpp```**) to free all **```Node```**s in the list and then deallocate **```head```**. 
 
 
