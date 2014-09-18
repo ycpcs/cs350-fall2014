@@ -22,7 +22,7 @@ Download [SkipList.zip](SkipList.zip), saving it into the **assignments** direct
 
 Double-click on **SkipList.zip** and extract the contents of the archive into a subdirectory called **SkipList**.
 
-For this lab, a static library has been provided (containing working versions of each method) to allow for testing of each class method independently. Any unimplemented methods in **SkipList.cpp** will use the corresponding method from the library, thus you can implement the methods in any order. Be sure to test each method you implement individually against the library for proper operation which can be accomplished by uncommenting the appropriate **#define** in the file **Flags.h** (and commenting the line containing **#define ALL 1**).
+For this lab, a static library has been provided (containing working versions of each method) to allow for testing of each class method independently. Any unimplemented methods in **SkipList.cpp** will use the corresponding method from the library, thus you can implement the methods in any order. Be sure to test each method you implement individually against the library for proper operation which can be accomplished by uncommenting the appropriate **#define** in the file **Flags.h** (and commenting the line containing **#define ALL 1**).  **DO NOT MODIFY ANY OF THE OTHER ```.h``` FILES INCLUDED WITH THE ASSIGNMENT**.
   
 
 The class declaration is 
