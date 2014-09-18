@@ -177,16 +177,16 @@ This method should deallocate all the nodes in the list *except* the sentinel no
 ### 8. Copy constructor / Assignment operator
 -----------------------------------------------
 
-Often it is advantageous in a data structure to provide a *copy constructor* which will create a new data structure from an existing one, i.e. make a *copy* of a current list. This process can be done manually or can take advantage of an overloaded *assignment operator*, i.e. = method which performs the actual copy process.
+Often it is advantageous in a data structure to provide a *copy constructor* which will create a new data structure from an existing one, i.e. make a *copy* of a current list. This process can be done manually or can take advantage of an overloaded *assignment operator*, i.e. = method which performs the copy of the data structure contents.
 
 **Tasks**
 
-* Add a constructor method (do not forget to qualify it with the class name) that takes a **```const```** *reference* to a **```DLList<T>```** object, i.e. another list object, parameter. Create a **```dummy```** node for the new list and either:
+* Add a constructor method (do not forget to qualify it with the class name) that takes a **```const```** *reference* to a **```DLList<T>```** object, i.e. another list object, parameter. Create a new **```Node<T>```** for the **```dummy```** node of the new list and either:
 
-	* manually create new **```Node```**s for the new list with identical values of the nodes in the parameter list **OR**
+	* manually create new **```Node```**s for the new list with nodes that contain identical values as those in the list that was passed in as a parameter, i.e. **```rhs```**. <br>**OR**
 	* simply *assign* the parameter list to the new list and implement an *assignment operator* (e.g. **```*this = rhs```**)
 
-* Add an assignment operator method (do not forget to qualify it with the class name) that takes a **```const```** *reference* to a **```DLList<T>```** object, i.e. another list object, parameter and returns a **```const```** *reference* to a **```DLList<T>```** object, i.e. the current one. The method should insert nodes into the new list with values identical to the ones from the parameter list. **Hint:** Use the **```insert()```** function to add the new nodes.
+* Add an assignment operator method (do not forget to qualify it with the class name) that takes a **```const```** *reference* to a **```DLList<T>```** object, i.e. another list object, parameter and returns a **```const```** *reference* to a **```DLList<T>```** object, i.e. the current one. The method should insert nodes into the new list with values identical to the ones from the parameter list. Note that the current list should already have a **```dummy```** node so you do not need to create one in this method.  **Hint:** Use the **```insert()```** function to add the new nodes.
 
 
 
