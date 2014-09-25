@@ -24,9 +24,9 @@ Additional content will be added as it becomes available throughout the semester
 >| Thur, Sep 18   |  Review for Exam #1                               |                                               |                                   |
 >||||
 >| Tue, Sep 23    |  **Exam #1**                                      |                                               |                                   |
->| Thur, Sep 25   |  [Trees](lectures/Trees_lecture.pdf) & [Tree Traversal](lectures/Tree_Traversal_lecture.pdf)  |                                               |                                   |
+>| Thur, Sep 25   |  [Trees](lectures/Trees_lecture.pdf) & [Tree Traversal](lectures/Tree_Traversal_lecture.pdf)  |                                               |                                   |  <!--Binary tree traversal algorithms--> <!--Random Art (Due Oct 6)-->
 >||||
->| Tue, Sep 30    |  [Binary Search Trees](lectures/Binary_Search_Trees.pdf)  |                                       |                                   |  <!--Binary tree traversal algorithms--> <!--Random Art (Due Oct 6)-->
+>| Tue, Sep 30    |  [Binary Search Trees](lectures/Binary_Search_Trees.pdf)  |                                       |                                   |  
 >| Thur, Oct 2    |  Binary Search Trees (Cont.)                      |                                               |                                   |  <!--Binary search trees-->
 >||||
 >| Tue, Oct 7     |  [AVL Trees](lectures/AVL_Trees.pdf)              |                                               |                                   |  <!--Binary Search Tree (Due Oct 22)-->
