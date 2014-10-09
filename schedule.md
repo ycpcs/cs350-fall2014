@@ -30,7 +30,7 @@ Additional content will be added as it becomes available throughout the semester
 >| Thur, Oct 2    |  [Binary Search Trees, Insert/Remove](lectures/Binary_Search_Trees.pdf)  |                                                 |                                 |  
 >||||
 >| Tue, Oct 7     |  [AVL Trees](lectures/AVL_Trees.pdf)              |                                               |                                   |  <!-- AVL Insert Activity -->
->| Thur, Oct 9    |  AVL Trees (Cont.)                                |                                               |  [BST (Due Oct 25)](assign/assign05.html)  |  <!-- AVL Remove Activity -->
+>| Thur, Oct 9    |  AVL Trees (Cont.)                                |                                               |  [BST (Due Oct 24)](assign/assign05.html)  |  <!-- AVL Remove Activity -->
 >||||
 >| Tue, Oct 14    |  **NO CLASS - Fall Break**                        |                                               |                                   |
 >| Thur, Oct 16   |  [Red-Black Trees](lectures/Red-Black_Trees.pdf)  |                                               |                                   |  <!-- RB Insert Activity #1 -->

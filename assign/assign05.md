@@ -4,7 +4,7 @@ course_number: CS350
 title: "Assignment 5: Binary Search Tree"
 ---
 
-**Due Wednesday, Oct 25nd by 11:59pm**
+**Due Friday, Oct 24th by 11:59pm**
 
 This lab will implement a binary search tree that stores arbitrary objects via class templates. The tree will dynamically allocate nodes as necessary for space efficiency.
 
