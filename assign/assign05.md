@@ -66,7 +66,7 @@ The class declaration is
 ### 1. Constructor / Destructor
 --------------------------------
 
-Since the tree will grow dynamically as needed, the constructor simply needs to initialize the root node. The destructor will subsequently need to remove any nodes in the list.
+Since the tree will grow dynamically as needed, the constructor simply needs to initialize the root node. The destructor will subsequently need to remove any nodes in the tree.
 
 **Tasks**
 
