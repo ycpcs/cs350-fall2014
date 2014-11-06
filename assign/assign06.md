@@ -4,7 +4,7 @@ course_number: CS350
 title: "Assignment 6: AA Tree"
 ---
 
-**Due Monday, Nov 10th by 11:59pm**
+**Due Monday, Nov 11th by 11:59pm**
 
 This lab will implement a AA tree that stores arbitrary objects via class templates. The tree will dynamically allocate nodes as necessary for space efficiency. Pseudocode for the AA tree operations can be found in the original paper [Balanced Search Trees Made Simple" by Arne Andersson](http://user.it.uu.se/~arnea/ps/simp.pdf) from the Proc. Workshop on Algorithms and Data Structures, Springer Verlag, 1993.
 

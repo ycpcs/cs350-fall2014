@@ -39,7 +39,7 @@ Additional content will be added as it becomes available throughout the semester
 >| Thur, Oct 23   |  Review for Exam #2                               |                                               |                                   |
 >||||
 >| Tue, Oct 28    |  **Exam #2**                                      |                                               |                                   |
->| Thur, Oct 30   |  [AA-Trees, Insert](lectures/AA-tree_lecture.pdf) |                                               |  [AATree (Due Nov 10)](assign/assign06.html)  |  <!-- AA Insert Activity, Assign06: AA Tree (Due Nov 10) -->
+>| Thur, Oct 30   |  [AA-Trees, Insert](lectures/AA-tree_lecture.pdf) |                                               |  [AATree (Due Nov 11)](assign/assign06.html)  |  <!-- AA Insert Activity, Assign06: AA Tree (Due Nov 10) -->
 >||||
 >| Tue, Nov 4     |  [AA-Trees, Delete](lectures/AA-tree_lecture.pdf) |                                               |                                   |  <!-- AA Delete Activity -->
 >| Thur, Nov 6    |  [B-Trees](lectures/B-Trees.pdf)                  |                                               |                                   |  <!-- B-Trees Activity -->
