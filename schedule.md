@@ -47,7 +47,7 @@ Additional content will be added as it becomes available throughout the semester
 >| Tue, Nov 11    |  Review for Exam #3                               |                                               |                                   |
 >| Thur, Nov 13   |  **Exam #3**                                      |                                               |                                   |
 >||||
->| Tue, Nov 18    |  [Binary Heaps](lectures/Heaps.pdf)               |                                               |                                   |  <!-- Binary Heaps Activity, Assign07: Binary Heap (Due Nov 26)-->
+>| Tue, Nov 18    |  [Binary Heaps](lectures/Heaps.pdf)               |                                               |  [Binary Heap (Due Nov 26)](assign/assign07.html)  |  <!-- Binary Heap Activity, Assign07: Binary Heap (Due Nov 26)-->
 >| Thur, Nov 20   |  Binary Heaps (Cont.)                             |                                               |                                   |
 >||||
 >| Tue, Nov 25    |  [Graphs](lectures/Graphs.pdf) & [Dijkstra's Algorithm](lectures/Dijkstras_Algorithm.pdf)  |      |                                   |
