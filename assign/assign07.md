@@ -65,7 +65,7 @@ For this implementation, **```maxSize```** is the maximum size *heap* that the b
 ### 1. Constructor / Destructor
 --------------------------------
 
-Since the backing array will change dynamically as needed, the constructor should simply allocate an initial backing array for a heap that can hold 1 element and set the two size fields appropriately. Remember, no elements are stored in teh 0th index of the backing array.  The destructor will then need to deallocate the backing array.
+Since the backing array will change dynamically as needed, the constructor should simply allocate an initial backing array for a heap that can hold 1 element and set the two size fields appropriately. Remember, no elements are stored in the 0th index of the backing array.  The destructor will then need to deallocate the backing array.
 
 **Tasks**
 
