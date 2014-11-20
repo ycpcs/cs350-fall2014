@@ -205,7 +205,7 @@ Congratulations, you have just implemented an binary heap C++ data structure wit
 ###11. Grading Criteria
 ------------------------
 
-**75 points**
+**80 points**
 
 * Constructor - 5 points
 * Destructor - 5 points
