@@ -214,6 +214,7 @@ Congratulations, you have just implemented an binary heap C++ data structure wit
 * leftIndex() - 2 points
 * rightIndex() - 2 points
 * parentIndex() - 2 points
+* minChild() - 5 points
 * percolateUp() - 10 points
 * insert() - 10 points
 * percolateDown() - 10 points
