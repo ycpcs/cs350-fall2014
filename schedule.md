@@ -53,7 +53,7 @@ Additional content will be added as it becomes available throughout the semester
 >| Tue, Nov 25    |  [Graphs](lectures/Graphs.pdf) & [Dijkstra's Algorithm](lectures/Dijkstras_Algorithm.pdf)  |      |                                   |
 >| Thur, Nov 27   |  **NO CLASS - Thanksgiving Break**                |                                               |                                   |
 >||||
->| Tue, Dec 2     |  [Hash Tables](lectures/Hash_Tables.pdf)          |                                               |                                   |  <!-- Hash Tables Activity, Assign08: Hash Table (Due Dec 8)-->
+>| Tue, Dec 2     |  [Hash Tables](lectures/Hash_Tables.pdf)          |                                               |  [Hash Table (Due Dec 8)](assign/assign08.html)  |  <!-- Hash Tables Activity, Assign08: Hash Table (Due Dec 8)-->
 >| Thur, Dec 4    |  Hash Tables (Cont.)                              |                                               |                                   |
 >||||
 >| Tue, Dec 9     |  **Final Exam**                                   |                                               |                                   |
